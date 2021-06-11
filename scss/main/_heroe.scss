@@ -1,0 +1,16 @@
+
+.heroe {
+    background: var(--background-grey);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/img-hero.jpg);
+    object-position: center;
+    background-size: cover;
+    max-width: 1600px;
+  }

@@ -1,0 +1,40 @@
+.advantage {
+    display: flex;
+  }
+  .feature {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: var(--gray-button);
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  .sprite_picture {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .description {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #212121;
+  
+    margin-bottom: 10px;
+  }
+  .list_description__item {
+    width: 270px;
+  
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+  .list_description {
+    display: flex;
+    flex-direction: row;
+  }
+  .advantage_title {
+    font-size: 14px;
+    line-height: 1.71;
+  }

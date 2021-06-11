@@ -13,7 +13,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>студия</title>
   </head>
   <body>
@@ -21,7 +21,7 @@
       <!--навигация-->
       <div class="container nav-container">
         <nav class="nav">
-          <a class="logo" href="/"><span class="accent">Web</span>Studio</a>
+          <a class="logo" href="/index.html"><span class="accent">Web</span>Studio</a>
           <ul class="nav-list">
             <li class="menu-link">
               <a class="nav-adres current" href="index.html">Студия</a>
@@ -56,7 +56,7 @@
     </header>
     <main>
       <!-- главный ролик-->
-      <section class="hero">
+      <section class="heroe">
         <div class="container main-btn data-modal-open">
           <h1 class="main">Эффективные решения для вашего бизнеса</h1>
           <button class="button-hero" type="button" data-modal-open>
@@ -139,53 +139,53 @@
         </div>
       </section>
       <!--преимущества компании-->
-      <section class="upper-advantage sizing">
+      <section class="sizing">
         <div class="container advantage">
-          <ul class="list-description">
-            <li class="description-one">
+          <ul class="list_description">
+            <li class="list_description__item">
               <div class="feature">
-                <svg class="ant" width="70">
+                <svg class="sprite_picture" width="70">
                   <use href="./images/sprite.svg#antenna"></use>
                 </svg>
               </div>
               <h3 class="description">Внимание к деталям</h3>
-              <p class="desc">
+              <p class="advantage_title">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="description-one">
+            <li class="list_description__item">
               <div class="feature">
-                <svg class="ant" width="70">
+                <svg class="sprite_picture" width="70">
                   <use href="./images/sprite.svg#clock"></use>
                 </svg>
               </div>
               <h3 class="description">Пунктуальность</h3>
-              <p class="desc">
+              <p class="advantage_title">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="description-one">
+            <li class="list_description__item">
               <div class="feature">
-                <svg class="ant" width="70">
+                <svg class="sprite_picture" width="70">
                   <use href="./images/sprite.svg#diagram"></use>
                 </svg>
               </div>
               <h3 class="description">Планирование</h3>
-              <p class="desc">
+              <p class="advantage_title">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="description-one">
+            <li class="list_description__item">
               <div class="feature">
-                <svg class="ant" width="70">
+                <svg class="sprite_picture" width="70">
                   <use href="./images/sprite.svg#astronaut"></use>
                 </svg>
               </div>
               <h3 class="description">Современные технологии</h3>
-              <p class="desc">
+              <p class="advantage_title">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -194,12 +194,12 @@
         </div>
       </section>
       <!--фото работ-->
-      <section class="photo-list box-size">
+      <section class="box-size">
         <div class="container">
           <h2 class="title-list">Чем мы занимаемся</h2>
-          <ul class="box">
-            <li class="description-size">
-              <div class="box-description">
+          <ul class="photo_list__box">
+            <li class="photo_item__size">
+              <div class="photo_box">
                 <img
                   src="./images/image1.jpg"
                   alt="работа с компьютером"
@@ -209,8 +209,8 @@
                 <p class="box-text-description">десктопные приложения</p>
               </div>
             </li>
-            <li class="description-size">
-              <div class="box-description">
+            <li class="photo_item__size">
+              <div class="photo_box">
                 <img
                   src="./images/image2.jpg"
                   alt="робота с телефоном"
@@ -220,8 +220,8 @@
                 <p class="box-text-description">мобильные приложения</p>
               </div>
             </li>
-            <li class="description-size">
-              <div class="box-description">
+            <li class="photo_item__size">
+              <div class="photo_box">
                 <img
                   src="./images/image3.jpg"
                   alt="робота с планшетом"
@@ -240,7 +240,7 @@
         <div class="container">
           <h2 class="team">Наша команда</h2>
           <ul class="team-list">
-            <li class="team-list-names">
+            <li class="team_list_item">
               <img
                 class="partners"
                 src="./images/img1.jpg"
@@ -249,7 +249,7 @@
                 height="260"
               />
               <div class="names-description">
-                <h3 class="team-names-list">Игорь Демьяненко</h3>
+                <h3 class="team_names">Игорь Демьяненко</h3>
                 <p class="team-description" lang="en">Product Designer</p>
                 <ul class="social-list">
                   <li class="social-list-item">
@@ -299,7 +299,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-list-names">
+            <li class="team_list_item">
               <img
                 class="partners"
                 src="./images/img2.jpg"
@@ -308,7 +308,7 @@
                 height="260"
               />
               <div class="names-description">
-                <h3 class="team-names-list">Ольга Репина</h3>
+                <h3 class="team_names">Ольга Репина</h3>
                 <p class="team-description" lang="en">Frontend Developer</p>
                 <ul class="social-list">
                   <li class="social-list-item">
@@ -358,7 +358,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-list-names">
+            <li class="team_list_item">
               <img
                 class="partners"
                 src="./images/img3.jpg"
@@ -367,7 +367,7 @@
                 height="260"
               />
               <div class="names-description">
-                <h3 class="team-names-list">Николай тарасов</h3>
+                <h3 class="team_names">Николай тарасов</h3>
                 <p class="team-description" lang="en">Marketing</p>
                 <ul class="social-list">
                   <li class="social-list-item">
@@ -417,7 +417,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-list-names">
+            <li class="team_list_item">
               <img
                 class="partners"
                 src="./images/img4.jpg"
@@ -426,7 +426,7 @@
                 height="260"
               />
               <div class="names-description">
-                <h3 class="team-names-list">Mихаил Ермаков</h3>
+                <h3 class="team_names">Mихаил Ермаков</h3>
                 <p class="team-description" lang="en">Ul Designer</p>
                 <ul class="social-list">
                   <li class="social-list-item">
@@ -485,42 +485,42 @@
         <ul class="clients">
           <li class="clients-list">
             <a class="clients-link" href="" rel="noopener noreferrer"
-              ><svg class="clients-list-icon" width="41" height="47">
+              ><svg class="clients_list_icon" width="41" height="47">
                 <use href="./images/sprite.svg#group"></use>
               </svg>
             </a>
           </li>
           <li class="clients-list">
             <a class="clients-link" href="" rel="noopener noreferrer"
-              ><svg class="clients-list-icon" width="40" height="52">
+              ><svg class="clients_list_icon" width="40" height="52">
                 <use href="./images/sprite.svg#group-1"></use>
               </svg>
             </a>
           </li>
           <li class="clients-list">
             <a class="clients-link" href="" rel="noopener noreferrer"
-              ><svg class="clients-list-icon" width="44" height="41">
+              ><svg class="clients_list_icon" width="44" height="41">
                 <use href="./images/sprite.svg#group-2"></use>
               </svg>
             </a>
           </li>
           <li class="clients-list">
             <a class="clients-link" href="" rel="noopener noreferrer"
-              ><svg class="clients-list-icon" width="84" height="41">
+              ><svg class="clients_list_icon" width="84" height="41">
                 <use href="./images/sprite.svg#group-3"></use>
               </svg>
             </a>
           </li>
           <li class="clients-list">
             <a class="clients-link" href="" rel="noopener noreferrer"
-              ><svg class="clients-list-icon" width="63" height="43">
+              ><svg class="clients_list_icon" width="63" height="43">
                 <use href="./images/sprite.svg#group-4"></use>
               </svg>
             </a>
           </li>
           <li class="clients-list">
             <a class="clients-link" href="" rel="noopener noreferrer"
-              ><svg class="clients-list-icon" width="94" height="44">
+              ><svg class="clients_list_icon" width="94" height="44">
                 <use href="./images/sprite.svg#group-5"></use>
               </svg>
             </a>
@@ -531,9 +531,9 @@
 
     <footer class="footer">
       <!--address-->
-      <div class="container sss">
-        <div class="footer-address">
-          <a class="logo-footer" href="/"
+      <div class="container footer_aline">
+        <div class="footer_address">
+          <a class="logo-footer" href="/index.html"
             ><span class="accent">Web</span>Studio</a
           >
           <address class="address">
@@ -561,7 +561,7 @@
           </address>
         </div>
         <!--social-links-->
-        <div class="footer-list">
+        <div class="footer_list_links">
           <p class="follow">Присоединяйтесь</p>
           <ul class="footer-links">
             <li class="footer-social-list-item">

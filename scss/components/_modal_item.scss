@@ -1,0 +1,61 @@
+
+.form-modal {
+  text-align: left;
+}
+.recall-text {
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 12px;
+}
+.modal-field {
+  display: block;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  margin-top: 10px;
+
+  &:nth-child(1) {
+    margin-top: 0px;
+  }
+}
+.modal-form {
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 4px;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+&:focus:invalid {
+  border-color: red;
+}
+&:hover,
+&:focus {
+  border-color: var(--blue);
+  outline: none;
+}
+}
+.modal-field-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .modal-form:hover + &,
+  .modal-form:focus + & {
+  fill: var(--blue);
+  }
+}
+.modal-div {
+  position: relative;
+  display: block;
+}
