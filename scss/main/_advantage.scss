@@ -1,6 +1,4 @@
-.advantage {
-    display: flex;
-  }
+
   .feature {
     display: flex;
     justify-content: center;
@@ -23,7 +21,7 @@
   
     margin-bottom: 10px;
   }
-  .list_description__item {
+  .list_description__presentation_list_item {
     width: 270px;
   
   &:not(:last-child) {

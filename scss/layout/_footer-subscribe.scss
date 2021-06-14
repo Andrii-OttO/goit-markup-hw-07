@@ -1,18 +1,18 @@
-.subscribe-box {
+.subscrib {
     display: flex;
     margin-left: 93px;
   }
-  .email-box {
+  .subscribe_email {
     display: flex;
     margin-top: 20px;
   }
-  .subscribe-text {
+  .subscribe_text {
     font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;
     margin-bottom: 20px;
   }
-  .your-email {
+  .subscribe_email__box {
     font-style: normal;
     font-size: 16px;
     line-height: 1.25;
@@ -42,7 +42,7 @@
     border-color: red;
   }
 }
-  .subscribe-button {
+  .subscribe_email__button {
     display: flex;
     width: 200px;
     height: 50px;
@@ -50,14 +50,14 @@
     align-items: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-  
+    cursor: pointer;
     color: var(--background);
     background: var(--blue);
     fill: var(--background);
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .telegram {
+  .subscribe_email__button_icon {
     width: 24px;
     height: 24px;
     margin-left: 10px;

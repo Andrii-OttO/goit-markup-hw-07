@@ -1,4 +1,4 @@
-.button-hero {
+.hero_button {
     position: relative;
     font-family: inherit;
     font-size: 16px;
@@ -40,10 +40,10 @@
   .trade {
     width: 130px;
   }
-  .button-list:not(:last-child) {
+  .buttons_list:not(:last-child) {
     margin-right: 8px;
   }
-  .button {
+  .buttons_list__button {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;

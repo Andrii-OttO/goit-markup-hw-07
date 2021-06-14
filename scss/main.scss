@@ -4,11 +4,11 @@
 @import "./base/structure";
 
 //====components
-@import "./components/modal";
-@import "./components/modal_item";
-@import "./components/modal_btn";
-@import "./components/modal-checbox";
 @import "./components/buttons";
+@import "./components/modal-checbox";
+@import "./components/modal";
+@import "./components/modal_btn";
+@import "./components/modal_item";
 
 //========layout
 @import "./layout/header";
@@ -22,7 +22,7 @@
 //=========main
 @import "./main/advantage";
 @import "./main/clients";
-@import "./main/heroe";
+@import "./main/hero";
 @import "./main/our_work";
 @import "./main/portfolio";
 @import "./main/team_list";

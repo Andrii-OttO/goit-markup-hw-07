@@ -1,14 +1,12 @@
 .footer {
     background: var(--background-grey);
     color: #ffffff;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    
   }
   .footer_aline {
     display: flex;
     align-items: baseline;
+    
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
-  .footer_address {
-    display: inline-block;
-  }
+ 

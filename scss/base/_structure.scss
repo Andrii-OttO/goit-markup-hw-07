@@ -1,13 +1,29 @@
 .container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  }
+  
+  .box-size {
+    padding-bottom: 94px;
+  }
+  
+  .works {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-  }
-  .sizing {
-    padding-top: 94px;
     padding-bottom: 94px;
   }
-  .box-size {
-    padding-bottom: 94px;
+  .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
   }
