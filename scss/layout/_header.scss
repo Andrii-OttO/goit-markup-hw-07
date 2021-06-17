@@ -2,7 +2,7 @@
     
     background: var(--background);
   }
-  .header_presentation_list_item_link__text_type {
+  .header_portfolio {
     border-bottom: 1px solid #ececec;
   }
   .icon {
@@ -10,5 +10,8 @@
     fill: currentColor;
     margin-right: 10px;
   }
-  
+  .header_container {
+    display: flex;
+    align-items: center;
+  }
   

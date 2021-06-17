@@ -2,15 +2,15 @@
     background-color: var(--gray-button);
   }
 
-.team_list {
+.team__list {
     display: flex;
   }
-  .team_list_presentation_list_item_box {
+  .team__box {
     background: var(--background);
     border-radius: 0px 0px 4px 4px;
     padding: 30px 32px;
   }
-  .team_list_presentation_list_item_box__name {
+  .team__name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.12;
@@ -19,7 +19,7 @@
   
     margin-bottom: 10px;
   }
-  .team_list_presentation_list_item {
+  .team__item {
     text-align: center;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);

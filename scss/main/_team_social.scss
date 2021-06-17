@@ -1,10 +1,10 @@
-.team_list_presentation_list_item__social {
+.team__social__list {
     display: flex;
     justify-content: space-around;
     margin-top: 16px;
   }
   
-  .team_list_presentation_list_item__social_presentation_list_item_link {
+  .team__social__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,14 +19,14 @@
     background: var(--blue);
     }
 }
-.team_list_presentation_list_item__social_presentation_list_item_link__icon {
+.team__social__icon {
   fill: var(--icon);
   width: 20px;
   height: 20px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-.team_list_presentation_list_item__social_presentation_list_item_link:hover  &,
-.team_list_presentation_list_item__social_presentation_list_item_link:focus  & {
+.team__social__link:hover  &,
+.team__social__link:focus  & {
   fill: var(--background);
 }
 }

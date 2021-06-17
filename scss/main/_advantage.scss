@@ -1,5 +1,5 @@
 
-  .feature {
+  .advantage__thumb {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -7,12 +7,12 @@
     border-radius: 4px;
     margin-bottom: 30px;
   }
-  .sprite_picture {
+  .advantage__picture {
     display: flex;
     justify-content: center;
     align-content: center;
   }
-  .description {
+  .advantage__description {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
@@ -21,18 +21,18 @@
   
     margin-bottom: 10px;
   }
-  .list_description__presentation_list_item {
+  .advantage__item {
     width: 270px;
   
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
-  .list_description {
+  .advantage__list {
     display: flex;
     flex-direction: row;
   }
-  .advantage_title {
+  .advantage__title {
     font-size: 14px;
     line-height: 1.71;
   }

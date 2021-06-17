@@ -1,4 +1,4 @@
-.footer_list {
+.footer__follow {
     margin-left: 70px;
     margin-right: auto;
   }
@@ -10,19 +10,19 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
   }
-  .footer-links {
+  .folow__list {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
   }
-  .footer_list_presentation_list_item {
+  .folow__item {
     display: inline-block;
 
   &:not(:last-child) {
     margin-right: 10px;
 }
   }
-  .footer_list_presentation_list_item_link {
+  .folow__link {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -38,7 +38,7 @@
   }
 }
 
-  .footer_list_presentation_list_item_link__icon {
+  .folow__icon {
     width: 20px;
     fill: var(--background);
   }

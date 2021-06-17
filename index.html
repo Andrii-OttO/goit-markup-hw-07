@@ -19,32 +19,32 @@
   <body>
     <header class="header">
       <!--навигация-->
-      <div class="container nav_container">
+      <div class="header_container">
         <nav class="nav">
           <a class="logo" href="/index.html"><span class="accent">Web</span>Studio</a>
-          <ul class="nav_list">
-            <li class="nav_link">
-              <a class="nav_link__address current" href="index.html">Студия</a>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link nav__link__current" href="index.html">Студия</a>
             </li>
-            <li class="nav_link">
-              <a class="nav_link__address" href="portfolio.html">Портфолио</a>
+            <li class="nav__item">
+              <a class="nav__link" href="portfolio.html">Портфолио</a>
             </li>
-            <li class="nav_link">
-              <a class="nav_link__address" href="">Контакты</a>
+            <li class="nav__item">
+              <a class="nav__link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="nav_list">
-          <li class="nav_link">
-            <a class="nav_adres__contact" href="mailto:info@devstudio.com">
+        <ul class="nav__address">
+          <li class="nav__item">
+            <a class="nav__address__contact" href="mailto:info@devstudio.com">
               <svg class="icon" width="16" height="12">
                 <use href="./images/sprite.svg#envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="nav_link">
-            <a class="nav_adres__contact" href="tell:+380961111111">
+          <li class="nav__item">
+            <a class="nav__address__contact" href="tell:+380961111111">
               <svg class="icon" width="10" height="16">
                 <use href="./images/sprite.svg#smartphone"></use>
               </svg>
@@ -134,88 +134,85 @@
       </section>
       <!--преимущества компании-->
       <section class="advantage">
-        <div class="container">
-          <ul class="list_description">
-            <li class="list_description__presentation_list_item">
-              <div class="feature">
-                <svg class="sprite_picture" width="70">
+          <ul class="advantage__list">
+            <li class="advantage__item">
+              <div class="advantage__thumb">
+                <svg class="advantage__picture" width="70">
                   <use href="./images/sprite.svg#antenna"></use>
                 </svg>
               </div>
-              <h3 class="description">Внимание к деталям</h3>
-              <p class="advantage_title">
+              <h3 class="advantage__description">Внимание к деталям</h3>
+              <p class="advantage__title">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="list_description__presentation_list_item">
-              <div class="feature">
-                <svg class="sprite_picture" width="70">
+            <li class="advantage__item">
+              <div class="advantage__thumb">
+                <svg class="advantage__picture" width="70">
                   <use href="./images/sprite.svg#clock"></use>
                 </svg>
               </div>
-              <h3 class="description">Пунктуальность</h3>
-              <p class="advantage_title">
+              <h3 class="advantage__description">Пунктуальность</h3>
+              <p class="advantage__title">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="list_description__presentation_list_item">
-              <div class="feature">
-                <svg class="sprite_picture" width="70">
+            <li class="advantage__item">
+              <div class="advantage__thumb">
+                <svg class="advantage__picture" width="70">
                   <use href="./images/sprite.svg#diagram"></use>
                 </svg>
               </div>
-              <h3 class="description">Планирование</h3>
-              <p class="advantage_title">
+              <h3 class="advantage__description">Планирование</h3>
+              <p class="advantage__title">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="list_description__presentation_list_item">
-              <div class="feature">
-                <svg class="sprite_picture" width="70">
+            <li class="advantage__item">
+              <div class="advantage__thumb">
+                <svg class="advantage__picture" width="70">
                   <use href="./images/sprite.svg#astronaut"></use>
                 </svg>
               </div>
-              <h3 class="description">Современные технологии</h3>
-              <p class="advantage_title">
+              <h3 class="advantage__description">Современные технологии</h3>
+              <p class="advantage__title">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
             </li>
           </ul>
-        </div>
       </section>
       <!--фото работ-->
-      <section>
-        <div class="works">
+      <section class="works">
           <h2 class="title">Чем мы занимаемся</h2>
-          <ul class="photo_list__box">
-            <li class="photo_presentation_list_item__size">
-              <div class="photo_box">
+          <ul class="works__list">
+            <li class="works__item">
+              <div class="works__box">
                 <img
                   src="./images/image1.jpg"
                   alt="работа с компьютером"
                   width="370"
                   height="294"
                 />
-                <p class="box-text-description">десктопные приложения</p>
+                <p class="works__description">десктопные приложения</p>
               </div>
             </li>
-            <li class="photo_presentation_list_item__size">
-              <div class="photo_box">
+            <li class="works__item">
+              <div class="works__box">
                 <img
                   src="./images/image2.jpg"
                   alt="робота с телефоном"
                   width="370"
                   height="294"
                 />
-                <p class="box-text-description">мобильные приложения</p>
+                <p class="works__description">мобильные приложения</p>
               </div>
             </li>
-            <li class="photo_presentation_list_item__size">
-              <div class="photo_box">
+            <li class="works__item">
+              <div class="works__box">
                 <img
                   src="./images/image3.jpg"
                   alt="робота с планшетом"
@@ -223,68 +220,67 @@
                   class=""
                   height="294"
                 />
-                <p class="box-text-description">дизайнерские решения</p>
+                <p class="works__description">дизайнерские решения</p>
               </div>
             </li>
           </ul>
-        </div>
       </section>
       <!--список команды-->
       <section class="team">
-        <div class="container">
+        <div class="team__container">
           <h2 class="title">Наша команда</h2>
-          <ul class="team_list">
-            <li class="team_list_presentation_list_item">
+          <ul class="team__list">
+            <li class="team__item">
               <img
                 src="./images/img1.jpg"
                 alt="улыбающеся Игорь в очках"
                 width="270"
                 height="260"
               />
-              <div class="team_list_presentation_list_item_box">
-                <h3 class="team_list_presentation_list_item_box__name">Игорь Демьяненко</h3>
-                <p class="team_list_presentation_list_item_box__position" lang="en">Product Designer</p>
-                <ul class="team_list_presentation_list_item__social">
-                  <li class="team_list_presentation_list_item__social_presentation_list_item">
+              <div class="team__box">
+                <h3 class="team__name">Игорь Демьяненко</h3>
+                <p class="team__title" lang="en">Product Designer</p>
+                <ul class="team__social__list">
+                  <li class="team__social__item">
                     <a
                       href="https://www.instagram.com/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="team_list_presentation_list_item__social_presentation_list_item_link"
-                      ><svg class="team_list_presentation_list_item__social_presentation_list_item_link__icon">
+                      class="team__social__link"
+                      ><svg class="team__social__icon">
                         <use href="./images/sprite.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team_list_presentation_list_item__social_presentation_list_item">
+                  <li class="team__social__item">
                     <a
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="team_list_presentation_list_item__social_presentation_list_item_link"
-                      ><svg class="team_list_presentation_list_item__social_presentation_list_item_link__icon">
+                      class="team__social__link"
+                      ><svg class="team__social__icon">
                         <use href="./images/sprite.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team_list_presentation_list_item__social_presentation_list_item">
+                  <li class="team__social__item">
                     <a
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="team_list_presentation_list_item__social_presentation_list_item_link"
-                      ><svg class="team_list_presentation_list_item__social_presentation_list_item_link__icon">
+                      class="team__social__link"
+                      ><svg class="team__social__icon">
                         <use href="./images/sprite.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team_list_presentation_list_item__social_presentation_list_item">
+                  <li class="team__social__item">
                     <a
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="team_list_presentation_list_item__social_presentation_list_item_link"
-                      ><svg class="team_list_presentation_list_item__social_presentation_list_item_link__icon">
+                      class="team__social__link"
+                      ><svg class="team__social__icon">
                         <use href="./images/sprite.svg#linkedin"></use>
                       </svg>
                     </a>
@@ -292,57 +288,57 @@
                 </ul>
               </div>
             </li>
-            <li class="team_list_presentation_list_item">
+            <li class="team__item">
               <img
                 src="./images/img2.jpg"
                 alt="улыбающаяся блондинка в очках"
                 width="270"
                 height="260"
               />
-              <div class="team_list_presentation_list_item_box">
-                <h3 class="team_list_presentation_list_item_box__name">Ольга Репина</h3>
-                <p class="team_list_presentation_list_item_box__position" lang="en">Frontend Developer</p>
-                <ul class="team_list_presentation_list_item__social">
-                  <li class="team_list_presentation_list_item__social_presentation_list_item">
+              <div class="team__box">
+                <h3 class="team__name">Ольга Репина</h3>
+                <p class="team__title" lang="en">Frontend Developer</p>
+                <ul class="team__social__list">
+                  <li class="team__social__item">
                     <a
                       href="https://www.instagram.com/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="team_list_presentation_list_item__social_presentation_list_item_link"
-                      ><svg class="team_list_presentation_list_item__social_presentation_list_item_link__icon">
+                      class="team__social__link"
+                      ><svg class="team__social__icon">
                         <use href="./images/sprite.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team_list_presentation_list_item__social_presentation_list_item">
+                  <li class="team__social__item">
                     <a
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="team_list_presentation_list_item__social_presentation_list_item_link"
-                      ><svg class="team_list_presentation_list_item__social_presentation_list_item_link__icon">
+                      class="team__social__link"
+                      ><svg class="team__social__icon">
                         <use href="./images/sprite.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team_list_presentation_list_item__social_presentation_list_item">
+                  <li class="team__social__item">
                     <a
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="team_list_presentation_list_item__social_presentation_list_item_link"
-                      ><svg class="team_list_presentation_list_item__social_presentation_list_item_link__icon">
+                      class="team__social__link"
+                      ><svg class="team__social__icon">
                         <use href="./images/sprite.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team_list_presentation_list_item__social_presentation_list_item">
+                  <li class="team__social__item">
                     <a
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="team_list_presentation_list_item__social_presentation_list_item_link"
-                      ><svg class="team_list_presentation_list_item__social_presentation_list_item_link__icon">
+                      class="team__social__link"
+                      ><svg class="team__social__icon">
                         <use href="./images/sprite.svg#linkedin"></use>
                       </svg>
                     </a>
@@ -350,57 +346,57 @@
                 </ul>
               </div>
             </li>
-            <li class="team_list_presentation_list_item">
+            <li class="team__item">
               <img
                 src="./images/img3.jpg"
                 alt="шатен в голубой рубашке"
                 width="270"
                 height="260"
               />
-              <div class="team_list_presentation_list_item_box">
-                <h3 class="team_list_presentation_list_item_box__name">Николай тарасов</h3>
-                <p class="team_list_presentation_list_item_box__position" lang="en">Marketing</p>
-                <ul class="team_list_presentation_list_item__social">
-                  <li class="team_list_presentation_list_item__social_presentation_list_item">
+              <div class="team__box">
+                <h3 class="team__name">Николай тарасов</h3>
+                <p class="team__title" lang="en">Marketing</p>
+                <ul class="team__social__list">
+                  <li class="team__social__item">
                     <a
                       href="https://www.instagram.com/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="team_list_presentation_list_item__social_presentation_list_item_link"
-                      ><svg class="team_list_presentation_list_item__social_presentation_list_item_link__icon">
+                      class="team__social__link"
+                      ><svg class="team__social__icon">
                         <use href="./images/sprite.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team_list_presentation_list_item__social_presentation_list_item">
+                  <li class="team__social__item">
                     <a
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="team_list_presentation_list_item__social_presentation_list_item_link"
-                      ><svg class="team_list_presentation_list_item__social_presentation_list_item_link__icon">
+                      class="team__social__link"
+                      ><svg class="team__social__icon">
                         <use href="./images/sprite.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team_list_presentation_list_item__social_presentation_list_item">
+                  <li class="team__social__item">
                     <a
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="team_list_presentation_list_item__social_presentation_list_item_link"
-                      ><svg class="team_list_presentation_list_item__social_presentation_list_item_link__icon">
+                      class="team__social__link"
+                      ><svg class="team__social__icon">
                         <use href="./images/sprite.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team_list_presentation_list_item__social_presentation_list_item">
+                  <li class="team__social__item">
                     <a
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="team_list_presentation_list_item__social_presentation_list_item_link"
-                      ><svg class="team_list_presentation_list_item__social_presentation_list_item_link__icon">
+                      class="team__social__link"
+                      ><svg class="team__social__icon">
                         <use href="./images/sprite.svg#linkedin"></use>
                       </svg>
                     </a>
@@ -408,57 +404,57 @@
                 </ul>
               </div>
             </li>
-            <li class="team_list_presentation_list_item">
+            <li class="team__item">
               <img
                 src="./images/img4.jpg"
                 alt="Михаил в очках и тёмной футболке"
                 width="270"
                 height="260"
               />
-              <div class="team_list_presentation_list_item_box">
-                <h3 class="team_list_presentation_list_item_box__name">Mихаил Ермаков</h3>
-                <p class="team_list_presentation_list_item_box__position" lang="en">Ul Designer</p>
-                <ul class="team_list_presentation_list_item__social">
-                  <li class="team_list_presentation_list_item__social_presentation_list_item">
+              <div class="team__box">
+                <h3 class="team__name">Mихаил Ермаков</h3>
+                <p class="team__title" lang="en">Ul Designer</p>
+                <ul class="team__social__list">
+                  <li class="team__social__item">
                     <a
                       href="https://www.instagram.com/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="team_list_presentation_list_item__social_presentation_list_item_link"
-                      ><svg class="team_list_presentation_list_item__social_presentation_list_item_link__icon">
+                      class="team__social__link"
+                      ><svg class="team__social__icon">
                         <use href="./images/sprite.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team_list_presentation_list_item__social_presentation_list_item">
+                  <li class="team__social__item">
                     <a
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="team_list_presentation_list_item__social_presentation_list_item_link"
-                      ><svg class="team_list_presentation_list_item__social_presentation_list_item_link__icon">
+                      class="team__social__link"
+                      ><svg class="team__social__icon">
                         <use href="./images/sprite.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team_list_presentation_list_item__social_presentation_list_item">
+                  <li class="team__social__item">
                     <a
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="team_list_presentation_list_item__social_presentation_list_item_link"
-                      ><svg class="team_list_presentation_list_item__social_presentation_list_item_link__icon">
+                      class="team__social__link"
+                      ><svg class="team__social__icon">
                         <use href="./images/sprite.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team_list_presentation_list_item__social_presentation_list_item">
+                  <li class="team__social__item">
                     <a
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="team_list_presentation_list_item__social_presentation_list_item_link"
-                      ><svg class="team_list_presentation_list_item__social_presentation_list_item_link__icon">
+                      class="team__social__link"
+                      ><svg class="team__social__icon">
                         <use href="./images/sprite.svg#linkedin"></use>
                       </svg>
                     </a>
@@ -471,47 +467,47 @@
       </section>
       <!--список клиентов-->
       <section class="clients">
-        <div class="container">
+        <div class="#">
           <h2 class="title">постоянные клиенты</h2>
           <ul class="clients_list">
-            <li class="clients_list_presentation_list_item">
-              <a class="clients_list_presentation_list_item_link" href="" rel="noopener noreferrer"
-                ><svg class="clients_list_presentation_list_item_link_icon" width="41" height="47">
+            <li class="clients__item">
+              <a class="clients__link" href="" rel="noopener noreferrer"
+                ><svg class="clients__icon" width="41" height="47">
                   <use href="./images/sprite.svg#group"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients_list_presentation_list_item">
-              <a class="clients_list_presentation_list_item_link" href="" rel="noopener noreferrer"
-                ><svg class="clients_list_presentation_list_item_link_icon" width="40" height="52">
+            <li class="clients__item">
+              <a class="clients__link" href="" rel="noopener noreferrer"
+                ><svg class="clients__icon" width="40" height="52">
                   <use href="./images/sprite.svg#group-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients_list_presentation_list_item">
-              <a class="clients_list_presentation_list_item_link" href="" rel="noopener noreferrer"
-                ><svg class="clients_list_presentation_list_item_link_icon" width="44" height="41">
+            <li class="clients__item">
+              <a class="clients__link" href="" rel="noopener noreferrer"
+                ><svg class="clients__icon" width="44" height="41">
                   <use href="./images/sprite.svg#group-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients_list_presentation_list_item">
-              <a class="clients_list_presentation_list_item_link" href="" rel="noopener noreferrer"
-                ><svg class="clients_list_presentation_list_item_link_icon" width="84" height="41">
+            <li class="clients__item">
+              <a class="clients__link" href="" rel="noopener noreferrer"
+                ><svg class="clients__icon" width="84" height="41">
                   <use href="./images/sprite.svg#group-3"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients_list_presentation_list_item">
-              <a class="clients_list_presentation_list_item_link" href="" rel="noopener noreferrer"
-                ><svg class="clients_list_presentation_list_item_link_icon" width="63" height="43">
+            <li class="clients__item">
+              <a class="clients__link" href="" rel="noopener noreferrer"
+                ><svg class="clients__icon" width="63" height="43">
                   <use href="./images/sprite.svg#group-4"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients_list_presentation_list_item">
-              <a class="clients_list_presentation_list_item_link" href="" rel="noopener noreferrer"
-                ><svg class="clients_list_presentation_list_item_link_icon" width="94" height="44">
+            <li class="clients__item">
+              <a class="clients__link" href="" rel="noopener noreferrer"
+                ><svg class="clients__icon" width="94" height="44">
                   <use href="./images/sprite.svg#group-5"></use>
                 </svg>
               </a>
@@ -523,9 +519,9 @@
 
     <footer class="footer">
       <!--address-->
-      <div class="container footer_aline">
+      <div class="footer_aline">
         <div>
-          <a class="footer_logo" href="/index.html"
+          <a class="footer_logo" href="index.html"
             ><span class="accent">Web</span>Studio</a
           >
           <address class="address">
@@ -553,49 +549,49 @@
           </address>
         </div>
         <!--social-links-->
-        <div class="footer_list">
+        <div class="footer__follow">
           <p class="follow">Присоединяйтесь</p>
-          <ul class="footer-links">
-            <li class="footer_list_presentation_list_item">
+          <ul class="folow__list">
+            <li class="folow__item">
               <a
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="footer_list_presentation_list_item_link"
-                ><svg class="footer_list_presentation_list_item_link__icon">
+                class="folow__link"
+                ><svg class="folow__icon">
                   <use href="./images/sprite.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer_list_presentation_list_item">
+            <li class="folow__item">
               <a
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                class="footer_list_presentation_list_item_link"
-                ><svg class="footer_list_presentation_list_item_link__icon">
+                class="folow__link"
+                ><svg class="folow__icon">
                   <use href="./images/sprite.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer_list_presentation_list_item">
+            <li class="folow__item">
               <a
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                class="footer_list_presentation_list_item_link"
-                ><svg class="footer_list_presentation_list_item_link__icon">
+                class="folow__link"
+                ><svg class="folow__icon">
                   <use href="./images/sprite.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer_list_presentation_list_item">
+            <li class="folow__item">
               <a
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                class="footer_list_presentation_list_item_link"
-                ><svg class="footer_list_presentation_list_item_link__icon">
+                class="folow__link"
+                ><svg class="folow__icon">
                   <use href="./images/sprite.svg#linkedin"></use>
                 </svg>
               </a>

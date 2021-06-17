@@ -1,17 +1,17 @@
 
-.photo_list__box {
+.works__list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  .photo_presentation_list_item__size {
+  .works__item {
     display: flex;
     justify-content: center;
   }
-  .photo_box {
+  .works__box {
     position: relative;
   }
-  .box-text-description {
+  .works__description {
     display: flex;
     font-style: normal;
     font-weight: 700;

@@ -1,11 +1,4 @@
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  }
+
   
   .box-size {
     padding-bottom: 94px;
@@ -26,4 +19,20 @@
     letter-spacing: 0.03em;
     color: #212121;
     margin-bottom: 50px;
+  }
+  .header {
+    width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  }
+  .advantage, .team__container, .clients, .presentation {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
